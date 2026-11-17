@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer glowing ring accent -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.12"
+        android:pathData="M54,54m-38,0a38,38 0 1,0 76,0a38,38 0 1,0 -76,0" />
+
+    <!-- Open Book Symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M28,34 C28,34 38,30 54,34 C70,30 80,34 80,34 V74 C80,74 70,70 54,74 C38,70 28,74 28,74 Z" />
+
+    <!-- Inner Spine Line -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M54,34 V74" />
+
+    <!-- Page Detail Lines -->
+    <path
+        android:strokeColor="#000000"
+        android:strokeWidth="2"
+        android:strokeAlpha="0.5"
+        android:pathData="M35,46 H47 M35,54 H47 M35,62 H44 M61,46 H73 M61,54 H73 M64,62 H73" />
+</vector>

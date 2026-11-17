@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Main Content Container -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="#6200EE"
+                android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+                app:title="Navigation Drawer"
+                app:titleTextColor="@android:color/white" />
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <ScrollView
+            android:id="@+id/main"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fillViewport="true"
+            android:background="#FFFFFF">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:padding="24dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="32dp"
+                    android:text="Main Menu"
+                    android:textColor="#000000"
+                    android:textSize="28sp"
+                    android:textStyle="bold" />
+
+                <Button android:id="@+id/btn_open_calculator" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Calculator" />
+                <Button android:id="@+id/btn_open_second_activity" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Second Activity" />
+                <Button android:id="@+id/btn_open_checkbox" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Checkbox Demo" />
+                <Button android:id="@+id/btn_open_listview" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="ListView Demo" />
+                <Button android:id="@+id/btn_open_login_page" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Login Page" />
+                <Button android:id="@+id/btn_open_select_color" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Select Color" />
+                <Button android:id="@+id/btn_open_hello_page" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Hello Page" />
+                <Button android:id="@+id/btn_open_google" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Open Google" />
+                <Button android:id="@+id/btn_open_caller" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Phone Caller" />
+                <Button android:id="@+id/btn_open_location" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Location Map" />
+                <Button android:id="@+id/btn_open_file_manager" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="File Manager" />
+                <Button android:id="@+id/btn_open_grid_layout" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Grid Layout Demo" />
+                <Button android:id="@+id/btn_open_frame_layout" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Frame Layout Demo" />
+                <Button android:id="@+id/btn_open_linear_layout" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Linear Layout Demo" />
+                <Button android:id="@+id/btn_open_food_order" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Food Order App" />
+                <Button android:id="@+id/btn_open_splash_screen" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Splash Screen Demo" />
+                <Button android:id="@+id/btn_open_fragment_demo" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Fragment Demo" />
+                <Button android:id="@+id/btn_open_localization" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Localization Demo" />
+                <Button android:id="@+id/btn_open_fab_demo" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="FAB Demo" />
+                <Button android:id="@+id/btn_open_pdf_demo" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Open PDF Notes" />
+                <Button android:id="@+id/btnAbout" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="About" />
+                <Button android:id="@+id/btn_open_battery_demo" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Battery Status Demo" />
+                <Button android:id="@+id/btn_open_airplane_mode_demo" android:layout_width="240dp" android:layout_height="wrap_content" android:layout_marginBottom="16dp" android:text="Airplane Mode Demo" />
+
+                <!-- Extra space to emphasize scrollability -->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp" />
+
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+
+    <!-- Side Navigation Menu -->
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        app:menu="@menu/navigation_menu"
+        app:headerLayout="@layout/drawer_header" />
+
+</androidx.drawerlayout.widget.DrawerLayout>

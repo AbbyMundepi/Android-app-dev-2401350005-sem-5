@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand & Primary Colors (Minimalist Black & White Palette) -->
+    <color name="primary">#000000</color>
+    <color name="primary_variant">#18181B</color>
+    <color name="primary_light">#27272A</color>
+    <color name="on_primary">#FFFFFF</color>
+    <color name="primary_container">#F4F4F5</color>
+    <color name="on_primary_container">#09090B</color>
+
+    <!-- Secondary Colors -->
+    <color name="secondary">#000000</color>
+    <color name="on_secondary">#FFFFFF</color>
+    <color name="secondary_container">#E4E4E7</color>
+    <color name="on_secondary_container">#18181B</color>
+
+    <!-- Background & Surface Colors -->
+    <color name="background">#FAFAFA</color>
+    <color name="on_background">#09090B</color>
+    <color name="surface">#FAFAFA</color>
+    <color name="surface_card">#FFFFFF</color>
+    <color name="surface_container_low">#F4F4F5</color>
+    <color name="surface_container_high">#E4E4E7</color>
+    <color name="on_surface">#09090B</color>
+    <color name="on_surface_variant">#52525B</color>
+    <color name="outline">#71717A</color>
+    <color name="outline_variant">#E4E4E7</color>
+    <color name="accent_lavender">#F4F4F5</color>
+    <color name="card_stroke">#E4E4E7</color>
+
+    <!-- Stat Cards Backgrounds -->
+    <color name="stat_card_1_bg">#F4F4F5</color>
+    <color name="stat_card_2_bg">#E4E4E7</color>
+
+    <!-- Status Colors (Black & White Theme) -->
+    <color name="status_available_text">#09090B</color>
+    <color name="status_available_bg">#F4F4F5</color>
+    <color name="status_borrowed_text">#FFFFFF</color>
+    <color name="status_borrowed_bg">#000000</color>
+    <color name="status_borrowed_btn">#27272A</color>
+
+    <!-- Category Accents -->
+    <color name="badge_programming_bg">#F4F4F5</color>
+    <color name="badge_programming_text">#09090B</color>
+    <color name="badge_fiction_bg">#F4F4F5</color>
+    <color name="badge_fiction_text">#09090B</color>
+    <color name="badge_science_bg">#F4F4F5</color>
+    <color name="badge_science_text">#09090B</color>
+    <color name="badge_business_bg">#F4F4F5</color>
+    <color name="badge_business_text">#09090B</color>
+
+    <!-- Rating & Decorative Colors -->
+    <color name="star_amber">#000000</color>
+
+    <!-- Standard Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
